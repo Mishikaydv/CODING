@@ -177,10 +177,82 @@
 
 // console.log("according to your score your grade was:",grade)
    
+//#LOOPS IN JS
+//FOR loops
+
+// for(let i=1;i<=128;i++){
+//     console.log("hello world")
+// }
+
+//Calculate sum of 1 to n
+
+// let sum=0;
+// for(let i=1;i<=8;i++){
+//     sum=sum+i;
+// }
+// console.log("sum=",sum);
+
+//INFINITE loops
+// for(let i=1;i<=128;i++){
+//     console.log("hello world")
+// }
+
+//WHILE loops
+
+// let i=1;
+// while(i<=5) {
+//     console.log("i=",i);
+//     i++;
+// }
 
 
+//DO-WHILE loops
 
+// let i=1;
+// do{
+//     console.log("i=",i);
+//     i++;
+// }while(i<=5);
 
+//FOR-OF loops
+
+// let str="javascript";
+// let length=0;
+// for(let i of str){
+//     console.log("i=",i);
+//     length++;
+// }
+
+// console.log("string length=",length);
+
+//FOR-IN loops
+
+// let student={
+//     name:"mishika",
+//     age:15,
+//     cgpa:10,
+//     ispass:true,
+// };
+
+// for(let key in student){
+//     console.log("key=",key,"value=",student[key]);
+// }
+
+//PRACTICE QUESTIONS OF LOOPS
+//#1.
+// for(let num=0;num<=100;num++){
+//     if(num%2!==0)console.log("num=",num);
+// }
+
+//#2.
+// let gameNum=15;
+// let userNum=prompt("guess the gamenumber:");
+
+// while(userNum != gameNum){
+//    userNum=prompt("you entered the wrong number. guess again:");
+
+// }
+// console.log("congratulations,you entered the right number");
 
 
 
