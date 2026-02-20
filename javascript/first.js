@@ -255,5 +255,76 @@
 // console.log("congratulations,you entered the right number");
 
 
+//STRINGS IN JS
+
+// let str="helloworld";
+// console.log(str[6]);
+
+//TEMPLATE LITERALS
+
+// let obj={
+//     item:"pen",
+//     price:50,
+// };
+// let output=`the cost of ${obj.item} is ${obj.price} rupees`;
+// console.log(output);
+
+// let specialstring=`this is a template literal`;
+// console.log(typeof specialstring);
+
+//#STRING INTERPOLATION
+
+// let specialstring=`this is a template literal ${1+2+9}`;
+// console.log(specialstring);
+
+//#escape characters
+
+// let str="hello\tworld";
+// console.log(str.length);
+
+//STRING METHODS
+//1.str.toUpperCase()
+
+// let str="helloworld";
+// str=str.toUpperCase();
+// console.log(str);
+
+//2.str.toLowerCase();
+
+// let str="HelloWorld";
+// str=str.toLowerCase();
+// console.log(str);
+ 
+//3.str.trim()//removes whitespaces
+
+// let str="    hello    world   ";
+// console.log(str.trim());
 
 
+//STRING METHODS TO REMEMBER
+// . str.slice(start,end?)// returns part of string
+//. str1.concat(str2)// joins str2 with str1
+//.str.replace(searchVal,newVal)
+//. str.charAt(idx)
+
+
+// let str="Hello";
+// console.log(str.slice(1,3));
+
+// let str1="Hello";
+// let str2="world";
+// let res=str2.concat(str1);
+// console.log(res);
+
+// let str="hello";
+// console.log(str.replace("h","c"));
+
+// let str="i am mishika";
+// console.log(str.charAt(8));
+
+//#PRACTICE QUESTIONS
+
+// let fullName=prompt("enter your Fullname:");
+// console.log(fullName);
+// let username="@"+fullName+fullName.length;
+// console.log(username);
