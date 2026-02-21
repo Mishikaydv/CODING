@@ -380,3 +380,61 @@
 // console.log(items);
 
 
+//#ARRAY METHODS
+
+//1. push()
+//2.pop()
+//3.toString()
+//4.concat()
+//5.unshift()
+//6.shift()
+//7.slice()
+//8.splice()
+
+// let veggies=["potato","tomato","ginger","garlic","onion"];
+// console.log(veggies);
+// let deleteditem=veggies.pop();
+// console.log(veggies);
+// console.log(deleteditem);
+
+// let veggies=["potato","tomato","ginger","garlic","onion"];
+// console.log(veggies);
+// console.log(veggies.toString());
+
+// let favheroes=["motu","patlu","john"];
+// let dcheroes=["bheem","chutki"];
+// let heroes=favheroes.concat(dcheroes);
+// console.log(heroes);
+
+// let favheroes=["motu","patlu","john"];
+// favheroes.unshift("antman");
+// console.log(favheroes);
+
+// let favheroes=["motu","patlu","john"];
+// console.log(favheroes);
+// let val=favheroes.shift();
+// console.log("deleted=",val);
+
+
+// let favheroes=["motu","patlu","john","chutki","bheem"];
+// console.log(favheroes);
+// console.log(favheroes.slice(1,4));
+
+// let arr=[1,2,3,4,5,6,7];
+// arr.splice(3,3,55,78);
+//ADD ELEMENT
+// arr.splice(2,0,55);
+//DELETE ELEMENT
+// arr.splice(2,1);
+//REPLACE ELEMENT
+// arr.splice(3,1,101);
+
+//## PRACTICE QUESTIONS
+//1.
+
+// let arr=["bloomberg","microsoft","uber","google","ibm","netflix"];
+// arr.shift();
+// arr.splice(2,1,"ola");
+// arr.push("amazon");
+// console.log(arr);
+
