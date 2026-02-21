@@ -328,3 +328,55 @@
 // console.log(fullName);
 // let username="@"+fullName+fullName.length;
 // console.log(username);
+
+//##ARRAYS##//
+//it is a collection of items//
+// # array=mutable in js
+// # string=immutable in js
+
+// let marks =[90,85,78,65];
+// console.log(marks);
+// console.log(marks.length);
+
+//#ARRAY INDICES//
+
+// let arr=[98,97,67,54,34];
+// console.log(arr);
+// // console.log(arr[0],arr[3]);
+// console.log(arr[4]=56);
+// console.log(arr);
+
+//LOOPING OVER AN ARRAY
+
+// let arr=[98,97,67,54,34];
+// for(let idx=0;idx<arr.length;idx++){
+//     console.log(arr[idx]);
+// }
+
+// let arrays=[98,97,67,54,34];
+// for(let array of arrays){
+//     console.log(array);
+// }
+
+//#PRACTICE QUESTIONS//
+//#1
+
+// let marks=[85,97,44,37,76,60];
+// let sum=0;
+// for(let val of marks){
+//     sum+=val;
+// }
+// let avg=sum/marks.length;
+// console.log(`avg marks of the class=${avg}`);
+
+//#2
+
+// let items=[250,645,300,900,50];
+
+// for(let i=0;i<items.length;i++){
+//     let offer=items[i]/10;
+// items[i]-=offer;
+// }
+// console.log(items);
+
+
