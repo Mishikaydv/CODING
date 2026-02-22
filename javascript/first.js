@@ -438,3 +438,56 @@
 // arr.push("amazon");
 // console.log(arr);
 
+//## FUNCTIONS & METHODS //
+
+//FUNCTIONS IN JS//
+
+// console.log("hello!");
+// "abc".toUpperCase()
+// [1,2,3].push(4);
+
+//WAYS TO CREATE FUNCTIONS IN JS//
+
+// function myFunction(){
+//     console.log("welcome to my page");
+//     console.log("i am learning js");
+// }
+// myFunction();
+// myFunction();
+// myFunction();
+// myFunction();
+// myFunction();
+
+// function myFunction(msg){
+//     console.log(msg);
+// }
+// myFunction("i love js");
+
+// function sum(x,y){
+// s=x+y;
+// console.log("before return");
+// return s;
+// console.log("after return");
+// }
+// let val=sum(3,4);
+// console.log(val);
+
+//#SUM FUNCTION//
+// function sum(a,b){
+//     return a+b;
+// }
+//MODERN JS
+// const arrowSum=(a,b)=>{
+//     console.log(a+b);
+// };
+
+//#MULTIPLICATION FUNCTION//
+// function mul(a,b){
+//     return a*b;
+// }
+// const arrowMul=(a,b)=>{
+//     console.log(a*b);
+// };
+
+// const printHello=()=> console.log("hello");
+
