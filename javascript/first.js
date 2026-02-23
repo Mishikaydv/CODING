@@ -514,3 +514,79 @@
 // return count;
 
 // };
+
+//# FOR EACH LOOPS IN ARRAYS.
+//## HIGHER ORDER FUNCTIONS //
+
+// function abc(){
+//     console.log("hello");
+// }
+// function myFunction(abc){
+//     return abc;
+// }
+
+// let arr=["titoo","motu"];
+
+// arr.forEach((val) => {
+// console.log(val.toUpperCase());
+// });
+
+
+// let arr=["titoo","motu"];
+// arr.forEach((val,idx,arr) => {
+// console.log(val.toUpperCase(),idx,arr);
+// });
+
+//PRACTICE QUESTIONS
+//1.
+
+// let nums=[2,3,4,5,6];
+// nums.forEach((num)=>{
+// console.log(num*num);
+
+// });
+
+//SOME MORE ARRAY METHODS//
+//MAP METHOD//
+
+// let nums=[2,3,4,5,6];
+
+// let newArr=nums.map((val)=>{
+// return val*val;
+// });
+// console.log(newArr);
+
+// let calcSquare=(num)=>{
+// console.log(num*num);
+// };
+
+//FILTER METHOD//
+
+// let arr=[2,3,4,5,6];
+
+// let evenArr=arr.filter((val)=>{
+//     return val%2===0
+// });
+// console.log(evenArr);
+
+//## REDUCE METHOD //
+
+// let arr=[2,3,4,5,6];
+// const output=arr.reduce((res,curr)=>{
+//   return  res+curr;
+// });
+
+// console.log(output);
+
+
+// let arr=[2,3,9,5,6];
+// const output=arr.reduce((res,curr)=>{
+//   return  res>curr?res:curr;
+// });
+
+// console.log(output);
+
+
+
+
+
