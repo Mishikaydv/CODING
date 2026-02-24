@@ -611,3 +611,18 @@
 // });
 // console.log(multiple);
 
+//## DOM ##// DOCUMENT OBJECT MODEL //
+
+// let headings=document.getElementsByClassName("heading");
+// console.log(headings);
+
+// DOM MANIPULATION //
+// let div=document.querySelector("div");
+// console.dir(div);
+
+//# PRACTICE QUESTIONS //
+//1.
+
+// let h2=document.querySelector("h2");
+// console.dir(h2.innerText);
+// h2.innerText= h2.innerText+"from mishika yadav";
