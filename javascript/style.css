@@ -28,3 +28,10 @@ button{
 background-color: brown;
 } */
 
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(9, 3, 114);
+    color:rgb(6, 112, 112);
+    border:1px solid black;
+}
